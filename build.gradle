@@ -31,7 +31,8 @@ dependencies {
 
 	// Driver de PostgreSQL
 	runtimeOnly 'org.postgresql:postgresql'
-
+	// Driver H2
+	runtimeOnly 'com.h2database:h2'
 	// Lombok para reducir código boilerplate
 	compileOnly 'org.projectlombok:lombok:1.18.24'
 	annotationProcessor 'org.projectlombok:lombok:1.18.24'
